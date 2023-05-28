@@ -1,0 +1,116 @@
+<body>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+    <link href="../lavictoria/css/estilos.css" rel="stylesheet">
+    <link href="../lavictoria/css/header.css" rel="stylesheet">
+    
+    <title>GAD LA VICTORIA</title>
+    <div class="contrainer ">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="https://res.cloudinary.com/black-royal/image/upload/v1684327113/imagen_2023-05-17_073832366_aaxyf5.png    " alt="logo" width="200px" >
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active soya"  aria-current="page" href="index.html">INICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link soya" href="CURSOS.html">CURSOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link soya " href="NOSOTROS.html" >NOSOTROS</a>
+                          </li>
+                      
+                          <li class="nav-item">
+                            <a class="nav-link soya" href="CONTACTOS.html" >CONTACTOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link soya" href="login.html" >LOGIN</a>
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        
+          
+        </div>
+
+        <head>
+            <title>Formulario de Contacto</title>
+            <style>
+              body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f2f2f2;
+              }
+          
+              .container {
+                max-width: 400px;
+                margin: 100px auto;
+                padding: 20px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              }
+          
+              .container h2 {
+                text-align: center;
+              }
+          
+              .container input[type="text"],
+              .container input[type="email"],
+              .container textarea {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+              }
+          
+              .container textarea {
+                height: 150px;
+              }
+          
+              .container button {
+                background-color: #a08545c4;
+                color: #fff;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+              }
+          
+              .container button:hover {
+                background-color: #a08545c4;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <h2>Formulario de Contacto</h2>
+              <form action="tu_script_de_procesamiento.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+          
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+          
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+          
+                <button type="submit">Enviar mensaje</button>
+              </form>
+            </div>
+          </body>
